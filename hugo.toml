@@ -1,0 +1,5 @@
+baseURL = 'https://yanmo.github.io/'
+languageCode = 'en-us'
+title = 'My beloved'
+defaultContentLanguage = "zh"
+theme = 'PaperMod'
