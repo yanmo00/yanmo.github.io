@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Person(name, age, gender) {
+            this.name = name;
+            this.age = age;
+            this.gender = gender;
+            // this.SayName = fun
+        }
+        Person.prototype.SayName = function fun() {
+            alert("hello," + this.name + "小姐姐")
+        }
+        var per1 = new Person("何", "男", 18)
+        var per2 = new Person("吴", "女", 23)
+        var per3 = new Person("李", "女", 19)
+        console.log(per1)
+        per2.SayName()
+        per3.SayName()
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

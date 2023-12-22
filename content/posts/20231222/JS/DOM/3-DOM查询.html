@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+</head>
+
+<body>
+    <!--  按钮 -->
+    <button id="btn1">btn1</button>
+    <button id="btn2">btn2</button>
+    <button id="btn3">btn3</button>
+
+    <ul>
+
+        <li id="bj">北京</li>
+        <div>female<input type="radio" name="gender" value="female" id="inputs">
+            male<input type="radio" name="gender" value="male" id="inputs"></div>
+
+    </ul>
+
+    <script>
+
+        function myClick(idStr, fun) {
+            var btn = document.getElementById(idStr);
+            btn.onclick = fun;
+        }
+
+
+        // 找到bj节点，打印bj节点，通过该属性获取元素内html代码
+        myClick("btn1", function () {
+            var bj = document.getElementById("bj");
+            alert(bj.innerHTML);
+            // alert(btn1.innerHTML)
+        })
+
+
+
+
+        // 绑定btn1对象
+        /*  var btn1 = document.getElementById("btn1");
+         // 为其绑定单击响应函数
+         btn1.onclick = function () {
+             var bj = document.getElementById("bj")
+             alert(bj.innerHTML)
+         }
+  */
+
+        // 找到bj节点，打印bj节点，通过该属性获取元素内html代码
+        myClick("btn2", function () {
+            alert(btn2.innerHTML);
+        })
+
+        /* // 找到bj节点，打印bj节点，通过该属性获取元素内html代码
+        btn2.onclick = function () {
+            var btn2 = document.getElementById("btn2");
+            alert(btn2.innerHTML);
+        } */
+        myClick("btn3", function () {
+            alert(btn3.innerHTML)
+        })
+        /* var btn3 = document.getElementById("btn3")
+        btn3.onclick = function () {
+*/
+        myClick("inputs", function () {
+            var inputs = document.getElementsByName("gender");
+            for (var i = 0; i < inputs.length; i++) {
+                alert(inputs[i].value);
+            }
+        })
+
+
+
+    </script>
+</body>
+
+</html>

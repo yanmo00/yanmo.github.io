@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #outer {
+            width: 500px;
+            margin: 50px auto;
+            /* position: relative; */
+            text-align: center;
+
+
+
+        }
+
+        img {
+            /* position: absolute;
+            left: 550px; */
+            height: 100%;
+            width: 100%;
+        }
+
+        /*
+
+        #prev {
+            position: absolute;
+            bottom: -50px;
+            left: 550px;
+            width: 65px;
+        }
+
+        #next {
+            position: absolute;
+            bottom: -50px;
+            left: 785px;
+            width: 65px;
+
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- <p id="info"></p> -->
+
+    <div id="outer">
+        <img src="img/1.jpg" alt="书">
+        <button id="prev">上一页</button>
+        <button id="next">下一页</button>
+    </div>
+
+    <script>
+        setInterval(function () { }, 3000);
+        // 获取翻页按钮
+        var prev = document.getElementById("prev")
+        var next = document.getElementById("next")
+
+        // 获取图像
+        var img = document.getElementsByTagName("img")[0];
+
+
+        var imgArr = ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg"]
+
+        var index = 0
+
+        prev.onclick = function () {
+            index--
+            if (index < 0) {
+                index = 0;
+            }
+        }
+
+        next.onclick = function () {
+
+            // 切换到下一张，索引自增
+            index++;
+
+            // index = 4 img / 5 index = 5
+            if (index > imgArr.length - 1) {
+                // index = imgArr.length - 1;
+                index = 0;
+            }
+
+            img.src = imgArr[index];
+
+        }
+        setInterval(function () {
+            index++;
+            if (index > imgArr.length - 1) {
+                // index = imgArr.length - 1;
+                index = 0;
+            }
+
+            img.src = imgArr[index];
+        }, 1000);
+
+    </script>
+
+</body>
+
+</html>

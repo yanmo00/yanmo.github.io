@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 后代选择器，只要是ul的子元素就能选择，li里的也可以但需要准确指出 */
+        ul a {
+            color: blue;
+        }
+
+
+        /* 子代选择器，只能选择直系子代 */
+        .green>li {
+            color: green;
+        }
+
+        /* 并集选择器，多个标签同个属性 */
+        div,
+        span {
+            color: pink;
+        }
+
+        /* 链接伪类选择器，对特定链接 */
+        /* 选择未访问的链接，调出修改 */
+        a:link {
+            color: #333;
+        }
+
+        /* 选择已访问的链接，调出 修改*/
+        a:visited {
+            color: skyblue;
+        }
+
+        /* 选择鼠标经过的链接，调出修改 */
+        a:hover {
+            color: brown;
+        }
+
+        /* 选择鼠标点下未松开的链接，调出修改 */
+        a:active {
+            color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="https://www.bilibili.com/" target="_blank">bilibili</a></li>
+    </ul>
+    <ul class="green">
+        <li>我是绿色</li>
+    </ul>
+    <div>我是粉色一号</div>
+    <span>我是粉色二号</span><br>
+    <a href="#">人生美好</a>
+</body>
+
+</html>

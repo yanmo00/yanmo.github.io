@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function MyClass() {
+
+        }
+
+        var mc1 = new MyClass();
+        var mc2 = new MyClass();
+
+        MyClass.prototype.a = 123;
+
+        mc1.a = "abc"
+
+        // document.write(mc1.__proto__.__proto__.prototype)
+        document.write(mc1.__proto__.hasOwnProperty("a"))
+        // console.log(mc2.a)
+        // console.log(mc1.a)
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

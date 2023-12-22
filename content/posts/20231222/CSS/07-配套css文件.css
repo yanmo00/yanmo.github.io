@@ -1,0 +1,35 @@
+         h2 {
+             font-family: '宋体';
+             font-size: 20px;
+         }
+
+         h4 {
+             font-family: '宋体';
+             font-size: 18px;
+         }
+
+         body {
+             font-family: '宋体';
+             font-size: 16px;
+         }
+
+         .bold {
+             font-weight: bolder;
+         }
+
+         .italic {
+             font-style: italic;
+         }
+
+         em {
+             font-style: normal;
+         }
+
+         body {
+             font: italic 900 16px "Microsoft Yahei";
+             color: hsl(183, 100%, 49%);
+             text-align: center;
+             text-decoration: underline;
+             text-indent: 2em;
+             line-height: 16px;
+         }

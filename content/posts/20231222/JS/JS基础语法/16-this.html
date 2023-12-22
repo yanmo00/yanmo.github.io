@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var name = "全局"
+        function fun() {
+            document.write(this.name)
+        }
+        var obj1 = {
+            name: "🐖",
+            gender: "boy",
+            SayName: fun
+        }
+
+        var obj2 = {
+            name: "🐟",
+            gender: "girl",
+            SayName: fun
+        }
+        obj1.SayName()
+        obj2.SayName()
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
