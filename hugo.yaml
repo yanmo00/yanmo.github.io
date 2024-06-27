@@ -1,8 +1,8 @@
-baseURL : 'https://yanmo00.github.io'
-languageCode : 'en-us'
-title : 'Mo's House'
-defaultContentLanguage : "zh"
-theme : 'PaperMod'
+baseURL: 'https://yanmo00.github.io'
+languageCode: 'en-us'
+title: 'Mo\'s House'
+defaultContentLanguage: "zh"
+theme: 'PaperMod'
 
 enableRobotsTXT: true
 params:
@@ -35,10 +35,9 @@ params:
     # apple_touch_icon: "<link / abs url>"
     # safari_pinned_tab: "<link / abs url>"
   label:
-    text: "Mo' house"
+    text: "Mo'house"
     icon: /apple-touch-icon.png
     iconHeight: 35
   homeInfoParams:
-    Title: "Mo’s House"
+    Title: "Mo"
     Content: Welcome to my house
-    
