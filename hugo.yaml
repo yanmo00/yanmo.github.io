@@ -1,6 +1,6 @@
 baseURL : 'https://yanmo00.github.io'
 languageCode : 'en-us'
-title : '舍友小屋'
+title : 'Mo's house'
 defaultContentLanguage : "zh"
 theme : 'PaperMod'
 
@@ -29,7 +29,7 @@ params:
   assets:
   # disableHLJS: true # to disable highlight.js
   # disableFingerprinting: true
-    favicon: "https://minio-api.amjacks.cn/hjs/image-20231211160219837.png"
+    favicon: "https://minio-api.amjacks.cn:443/hjs/image-20240627192737988.png"
     # favicon16x16: "<link / abs url>"
     # favicon32x32: "<link / abs url>"
     # apple_touch_icon: "<link / abs url>"
@@ -39,6 +39,6 @@ params:
     icon: /apple-touch-icon.png
     iconHeight: 35
   homeInfoParams:
-    Title: "舍友小屋"
-    Content: Welcome to our house
+    Title: "Mo's house"
+    Content: Welcome to my house
     
