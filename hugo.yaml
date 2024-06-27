@@ -1,8 +1,8 @@
-baseURL: 'https://yanmo00.github.io'
-languageCode: 'en-us'
-title: 'Mo\'s House'
+baseURL: "https://yanmo00.github.io"
+languageCode: "en-us"
+title: "Mo"
 defaultContentLanguage: "zh"
-theme: 'PaperMod'
+theme: "PaperMod"
 
 enableRobotsTXT: true
 params:
@@ -10,25 +10,25 @@ params:
   ShowShareButtons: true
   # daohang
   ShowPostNavLinks: true
-  
+
   # ShowBreadCrumbs: true
   # ShowCodeCopyButtons: true
   # ShowWordCount: true
   # ShowRssButtonInSectionTermList: true
-  
+
   # UseHugoToc: true
-  
+
   disableSpecial1stPost: true
   disableScrollToTop: false
   comments: true
-  
+
   # hidemeta: true
   hideSummary: true
   # showtoc: true
   tocopen: true
   assets:
-  # disableHLJS: true # to disable highlight.js
-  # disableFingerprinting: true
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
     favicon: "https://minio-api.amjacks.cn:443/hjs/image-20240627192737988.png"
     # favicon16x16: "<link / abs url>"
     # favicon32x32: "<link / abs url>"
@@ -40,4 +40,4 @@ params:
     iconHeight: 35
   homeInfoParams:
     Title: "Mo"
-    Content: Welcome to my house
+    Content: Welcome to our house
