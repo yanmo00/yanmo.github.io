@@ -1,3 +1,16 @@
+---
+title: "Pycharm快捷键"
+date: 2023-12-22T16:00:01+08:00
+draft: false
+tags:
+  - Python
+  - 快捷键
+  - BE
+categories:
+  - 语言基础
+  - Python
+---
+
 1 Ctrl+/ 注释选中行
 
 2 Ctrl+Alt+Enter 向上插入
