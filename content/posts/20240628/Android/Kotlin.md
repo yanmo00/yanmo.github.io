@@ -1,3 +1,15 @@
+---
+title: "Kotlin"
+date: 2023-12-22T16:00:01+08:00
+draft: false
+tags:
+  - Kotlin
+  - FE
+categories:
+  - 语言基础
+  - Kotlin
+---
+
 ## 一、基础语法
 
 ### 1.变量和函数
@@ -6,29 +18,27 @@
 
 1. 定义变量的方式
 
-- val：声明一个不可变的变量，对应Java 中的final变量
+- val：声明一个不可变的变量，对应 Java 中的 final 变量
 
-- var：声明一个可变的变量，对应Java 中的非final变量
+- var：声明一个可变的变量，对应 Java 中的非 final 变量
 
 2. 显式地声明变量类型
-
-
 
 ```kotlin
 val a: Int = 10
 ```
 
-| Java基本数据类型 | Kotlin 对象数据类型 | 数据类型说明 |
-| ---------------- | ------------------- | ------------ |
-| int              | Int                 | 整型         |
-| long             | Long                | 长整型       |
-| short            | Short               | 短整型       |
-| float            | Float               | 单精度浮点型 |
-| double           | Double              | 双精度浮点型 |
-| boolean          | Boolean             | 布尔型       |
-| char             | Char                | 字符型       |
-| byte             | Byte                | 字节型       |
-|                  |                     |              |
+| Java 基本数据类型 | Kotlin 对象数据类型 | 数据类型说明 |
+| ----------------- | ------------------- | ------------ |
+| int               | Int                 | 整型         |
+| long              | Long                | 长整型       |
+| short             | Short               | 短整型       |
+| float             | Float               | 单精度浮点型 |
+| double            | Double              | 双精度浮点型 |
+| boolean           | Boolean             | 布尔型       |
+| char              | Char                | 字符型       |
+| byte              | Byte                | 字节型       |
+|                   |                     |              |
 
 （2）函数
 
@@ -39,7 +49,7 @@ fun methodName(param1: Int, param2: Int): Int {
 ```
 
 - 定义关键字+函数名+参数+{返回类型}
-  - fun（function 的简写）是定义函数的关键字，定义函数一定要使用fun来声明
+  - fun（function 的简写）是定义函数的关键字，定义函数一定要使用 fun 来声明
   - 函数名，根据喜好，但最好语义化命名
   - 括号，声明该函数接收什么参数，格式“参数名: 参数类型”，可不写
   - 返回类型，声明该函数会返回什么类型的数据，可选
@@ -49,7 +59,7 @@ fun methodName(param1: Int, param2: Int): Int {
 
 #### （1）条件语句
 
-##### i）if语句
+##### i）if 语句
 
 ```kotlin
 fun largerNumber(num1: Int, num2: Int): Int {
@@ -62,8 +72,9 @@ fun largerNumber(num1: Int, num2: Int): Int {
 	return value
 }
 ```
-由于特性：Kotlin中的if语句相比于Java 有一个额外的功能，它是可以有返回值的，返回值就是if语句每一个条件中最后一行代码的返回值。
-	简化为如下：
+
+由于特性：Kotlin 中的 if 语句相比于 Java 有一个额外的功能，它是可以有返回值的，返回值就是 if 语句每一个条件中最后一行代码的返回值。
+简化为如下：
 
 ```kotlin
 fun largerNumber(num1: Int, num2: Int): Int {
@@ -76,9 +87,9 @@ fun largerNumber(num1: Int, num2: Int): Int {
 }
 ```
 
-你会发现value其实也是一个多余的变量，我们可以直接将if语句返回，这样代码将会变得更加精简	
+你会发现 value 其实也是一个多余的变量，我们可以直接将 if 语句返回，这样代码将会变得更加精简
 
-​	更简化的：
+​ 更简化的：
 
 ```kotlin
 fun largerNumber(num1: Int, num2: Int): Int {
@@ -106,7 +117,7 @@ fun largerNumber(num1: Int, num2: Int) = if (num1 > num2) {
 fun largerNumber(num1: Int, num2: Int) = if (num1 > num2) num1 else num2
 ```
 
-##### ii）when语句
+##### ii）when 语句
 
 ```kotlin
 fun getScore(name: String) = when (name) {
@@ -118,9 +129,9 @@ fun getScore(name: String) = when (name) {
 }
 ```
 
-注：is关键字就是类型匹配的核心，它相当于Java 中的instanceof关键字
+注：is 关键字就是类型匹配的核心，它相当于 Java 中的 instanceof 关键字
 
-​	一种不带参数的用法：
+​ 一种不带参数的用法：
 
 ```kotlin
 fun getScore(name: String) = when {
@@ -134,8 +145,7 @@ fun getScore(name: String) = when {
 
 #### （2）循环语句
 
-for循环
-
+for 循环
 
 ```kotlin
 //区间：
@@ -172,16 +182,15 @@ fun main() {
 
 （1）类与对象
 
-​	类的创建
+​ 类的创建
 
 ```kotlin
 class Person {
 	var name = ""
 	var age = 0
-	
+
     fun eat() {
 		println(name + " is eating. He is " + age + " years old.")
 	}
 }
 ```
-
