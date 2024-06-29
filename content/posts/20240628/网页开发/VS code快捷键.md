@@ -6,7 +6,7 @@ tags:
   - 快捷键
   - FE
 categories:
-  - 快捷键
+  - 工具类
 ---
 
 # **开发工具-VScode 快捷键**

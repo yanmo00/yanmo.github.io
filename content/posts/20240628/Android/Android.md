@@ -6,8 +6,7 @@ tags:
   - Android
   - FE
 categories:
-  - 语言基础
-  - Android
+  - FE
 ---
 
 # 一、项目结构分析

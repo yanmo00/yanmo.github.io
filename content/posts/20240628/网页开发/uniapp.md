@@ -6,8 +6,7 @@ tags:
   - Uniapp
   - FE
 categories:
-  - 语言基础
-  - Uniapp
+  - FE
 ---
 
 # uni-app 组件

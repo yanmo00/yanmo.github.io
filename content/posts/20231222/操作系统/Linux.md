@@ -7,8 +7,7 @@ tags:
   - Linux
   - 运维
 categories:
-  - 其他基础
-  - Linux
+  - 操作系统
 ---
 
 # 常用命令

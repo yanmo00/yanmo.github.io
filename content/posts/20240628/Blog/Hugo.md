@@ -6,8 +6,7 @@ tags:
   - Blog
   - Hugo
 categories:
-  - Hugo
-  - Blog
+  - 工具类
 ---
 
 # Hugo 基本部署及主题更换

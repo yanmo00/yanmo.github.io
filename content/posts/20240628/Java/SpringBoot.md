@@ -6,8 +6,7 @@ tags:
   - Java
   - SpringBoot
 categories:
-  - Java
-  - SpringBoot
+  - JavaWeb
 ---
 
 ## 一、基础知识

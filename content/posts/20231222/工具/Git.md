@@ -5,7 +5,7 @@ draft: false
 tags:
   - Git
 categories:
-  - Git
+  - 工具类
 ---
 
 # 安装

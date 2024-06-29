@@ -7,8 +7,7 @@ tags:
   - JS
   - FE
 categories:
-  - 语言基础
-  - JS
+  - FE
 ---
 
 # 一、JS 简介

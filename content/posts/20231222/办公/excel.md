@@ -6,9 +6,7 @@ tags:
   - Excel
   - 办公
 categories:
-  - 其他基础
   - 办公
-  - Excel
 ---
 
 快捷键：

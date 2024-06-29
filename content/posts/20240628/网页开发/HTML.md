@@ -6,7 +6,6 @@ tags:
   - HTML
   - FE
 categories:
-  - HTML
   - FE
 ---
 

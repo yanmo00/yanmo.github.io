@@ -6,7 +6,6 @@ tags:
   - CSS
   - FE
 categories:
-  - CSS
   - FE
 ---
 

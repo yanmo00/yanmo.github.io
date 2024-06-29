@@ -6,8 +6,7 @@ tags:
   - Kotlin
   - FE
 categories:
-  - 语言基础
-  - Kotlin
+  - FE
 ---
 
 ## 一、基础语法

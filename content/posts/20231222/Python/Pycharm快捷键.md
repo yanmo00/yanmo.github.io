@@ -7,7 +7,6 @@ tags:
   - 快捷键
   - BE
 categories:
-  - 语言基础
   - Python
 ---
 
